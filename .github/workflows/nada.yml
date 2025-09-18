@@ -1,0 +1,10 @@
+name: Nothing happens
+
+on: [push]
+
+jobs:
+  nothing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Do absolutely nothing
+        run: echo "Nothing happened."
